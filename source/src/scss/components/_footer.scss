@@ -1,0 +1,56 @@
+.footer {
+	//padding: 20px;
+	display: flex;
+	//align-items: end;
+	justify-content: space-between;
+	padding: 20rem 113rem 30rem 113rem;
+	width: 100%;
+	background-color: #090707;
+	background-image: linear-gradient(315deg, #2c2424 0%, #4d342d 54%);
+	&__location-title{
+		font-family: var(--ff);
+		color: rgb(241, 223, 212);
+		font-weight: 400;
+		font-size: 20px;
+	}
+	&__location{
+		display: flex;
+		gap: 3rem;
+		align-items: baseline;
+		transition: .2s all ease-in-out;
+		margin-bottom: 5rem;
+		&:hover{
+			transform: scale(1.05);
+		}
+	}
+	&__phone, &__email{
+		font-family: var(--ff);
+		color: rgb(241, 223, 212);
+		font-weight: 400;
+		font-size: 16px;
+		margin-bottom: 5rem;
+	}
+	&__right{
+		flex-direction: column;
+		justify-content: end;
+		min-width: 160rem;
+		text-align: right;
+	}
+	&__my-socials{
+		display: flex;
+		justify-content: end;
+	}
+	&__socials{
+		display: flex;
+		justify-content: space-between;
+		gap: 10rem;
+		max-width: 160rem;
+		text-align: right;
+	}
+}
+.location-svg{
+	width: 20rem;
+}
+.socials{
+	width: 45rem;
+}

@@ -1,0 +1,58 @@
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50rem 0 0 0;
+    margin-bottom: 80rem;
+    &__image{
+        max-height: 600rem;
+        border-radius: 60%;
+        padding: 10rem;
+    }
+    &__img{
+        border-radius: 60%;
+        border: 1.5rem solid rgb(241, 223, 212);
+    }
+    &__info{
+        max-width: 550rem;
+    }
+    &__title{
+        font-family: var(--second-ff);
+        font-weight: 300;
+        font-size: 25rem;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+        color: var(--main-color);
+        margin-bottom: 15rem;
+    }
+    &__name{
+        font-weight: 600;
+        font-size: 67rem;
+        color: var(--main-color);
+        margin-bottom: 15rem;
+    }
+    &__profession{
+        font-weight: 300;
+        font-size: 20rem;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        color: var(--main-color);
+        margin-bottom: 45rem;
+    }
+    &__button{
+        font-weight: 400;
+        font-size: 25rem;
+        letter-spacing: 0.05em;
+        text-transform: capitalize;
+        color: var(--main-color);
+        border-radius: 10rem;
+        background-color: #090707;
+        background-image: linear-gradient(315deg, #1d1919 0%, #2f201a 54%);
+        padding: 17rem 46.5rem;
+        transition: .2s all ease-in-out;
+        &:hover{
+            background-color: #090707;
+            background-image: linear-gradient(315deg, #1d1919 0%, #150f0d 54%);
+    }
+    }
+}

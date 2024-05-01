@@ -1,0 +1,88 @@
+.skills{
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    margin-top: 70rem;
+    padding-top: 50rem;
+    border-top: 1px solid rgb(241, 223, 212);
+    &__img{
+        max-width: 670rem;
+        border-radius: 30rem;
+        border: 1px solid #decccc;
+        padding: 10rem;
+    }
+    &__img-bottom{
+        max-width: 650rem;
+        display: flex;
+        gap: 10rem;
+        margin-top: 10rem;
+    }
+    &__info{
+        max-width: 550rem;
+        padding: 0 0 0 20rem;
+    }
+    &__title{
+        font-weight: 700;
+        font-size: 30rem;
+        line-height: 145%;
+        letter-spacing: 0.1em;
+        text-align: center;
+        margin-bottom: 20rem;
+        color: var(--main-second-color);
+    }
+    &__main{
+        color: var(--main-second-color);
+        font-weight: 500;
+        font-size: 18rem;
+        line-height: 145%;
+        letter-spacing: 0.1em;
+        margin-bottom: 30rem;
+    }
+    &__bottom{
+        display: flex;
+        justify-content: end;
+        margin-top: 50rem;
+        margin-right: 30rem;
+        align-items: center;
+        gap: 8rem;
+    }
+    &__bottom-title{
+        font-weight: 300;
+        font-size: 25rem;
+        letter-spacing: 0.01em;
+        text-transform: uppercase;
+        margin-bottom: 20rem;
+        color: var(--main-second-color);
+    }
+
+}
+img{
+    width: 100%;
+}
+.coffee{
+    max-width: 194.5rem;
+    max-height: 439.5rem;
+}
+.clothes{
+    max-width: 445.5rem;
+}
+.films, .clothes, .coffee{
+    border-radius: 20rem;
+}
+.dot{
+    color: var(--main-second-color);
+    font-size: 35rem;
+    font-weight: 700;
+}
+.arrow{
+   width: 80rem;
+}
+.github{
+    width: 80rem;
+    background-color: var(--main-second-color);
+    border-radius: 50%;
+    transition: .2s all ease-in-out;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
