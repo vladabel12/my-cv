@@ -24,12 +24,27 @@
         text-transform: uppercase;
         color: var(--main-color);
         margin-bottom: 15rem;
+        @include mobile{
+            font-size: 17rem;
+        }
+        @include mobile-xs{
+            margin-bottom: 10rem;
+        }
     }
     &__name{
         font-weight: 600;
         font-size: 67rem;
         color: var(--main-color);
         margin-bottom: 15rem;
+        @include desktop-xs{
+            font-size: 57rem;
+        }
+        @include tablet{
+            font-size: 50rem;
+        }
+        @include mobile{
+            font-size: 30rem;
+        }
     }
     &__profession{
         font-weight: 300;
@@ -38,6 +53,13 @@
         text-transform: uppercase;
         color: var(--main-color);
         margin-bottom: 45rem;
+        @include mobile{
+            font-size: 14rem;
+            margin-bottom: 30rem;
+        }
+        @include mobile-xs{
+            margin-bottom: 10rem;
+        }
     }
     &__button{
         font-weight: 400;
@@ -50,9 +72,25 @@
         background-image: linear-gradient(315deg, #1d1919 0%, #2f201a 54%);
         padding: 17rem 46.5rem;
         transition: .2s all ease-in-out;
+        @include mobile{
+            font-size: 17rem;
+            padding: 11rem 40.5rem;
+        }
+        @include mobile-xs{
+            font-size: 11rem;
+            padding: 5rem 34.5rem;
+        }
         &:hover{
             background-color: #090707;
             background-image: linear-gradient(315deg, #1d1919 0%, #150f0d 54%);
     }
     }
+}
+#downloadButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }

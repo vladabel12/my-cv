@@ -11,5 +11,13 @@ body {
 	margin-inline: auto;
 }
 .main {
-	padding: 20px;
+	padding: 0 113rem;
+	@include tablet{
+		padding: 0 30rem;
+	}
+}
+html{
+	@include tablet {
+		font-size: 0.8px;
+	}
 }
