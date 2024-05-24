@@ -1,6 +1,12 @@
 .skills{
+    @include desktop-xl{
+        justify-content: center;
+        gap: 172rem;
+    }
+    @include desktop-l{
+        gap: 10rem;
+    }
     display: flex;
-    gap: 10rem;
     align-items: center;
     margin-top: 70rem;
     padding-top: 50rem;
@@ -118,8 +124,9 @@ img{
 }
 .github{
     width: 80rem;
-    background-color: var(--main-second-color);
-    border-radius: 50%;
+    color: #fff;
+    //background-color: var(--main-second-color);
+    //border-radius: 50%;
     transition: .2s all ease-in-out;
     &:hover{
         transform: scale(1.1);

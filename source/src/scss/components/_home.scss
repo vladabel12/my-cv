@@ -1,16 +1,26 @@
 .home{
-    display: flex;
-    justify-content: space-between;
+    @include desktop-xl{
+        display: flex;
+        justify-content: center;  
+        gap: 500rem;
+    }
+    @include desktop-l{
+        display: flex;
+        justify-content: space-between;
+        gap: 0;
+    }
     align-items: center;
-    padding: 50rem 0 0 0;
     margin-bottom: 80rem;
+    padding: 50rem 0 0 0;
+
     &__image{
         max-height: 600rem;
-        border-radius: 60%;
+        max-width: 600rem;
+        border-radius: 25%;
         padding: 10rem;
     }
     &__img{
-        border-radius: 60%;
+        border-radius: 25%;
         border: 1.5rem solid rgb(241, 223, 212);
     }
     &__info{

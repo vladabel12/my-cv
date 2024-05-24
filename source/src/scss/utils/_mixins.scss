@@ -1,4 +1,11 @@
 // MEDIA QUERIES
+@mixin desktop-xl {
+  @media (max-width: $desktop-xl) {
+    @content;
+  }
+}
+
+
 @mixin desktop-l {
   @media (max-width: $desktop-l) {
     @content;
